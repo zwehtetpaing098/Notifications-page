@@ -1,0 +1,63 @@
+.box{
+    width: 800px;
+    background-color: $White;
+    box-shadow: 1px 1px 15px 2px rgba($color: #858585, $alpha: 0.1);
+
+    header{
+        nav{
+            .logo{
+                font-weight: $large;
+                align-items: center;
+                user-select: none;
+                h1{
+                    font-weight: $large;
+                }
+                div{
+                    background-color: $Blue;
+                    color: $White;
+                    width: 30px;
+                }
+            }
+            .read{
+                color: $Very_dark_blue;
+                cursor: pointer;
+                transition: all 0.5s;
+            }
+            .read:hover{
+                color: $Blue;
+            }
+        }
+    }
+
+    .profile1{
+        background-image: url(../assets/images/avatar-mark-webber.webp);
+    }
+    .profile2{
+        background-image: url(../assets/images/avatar-angela-gray.webp);
+    }
+    .profile3{
+        background-image: url(../assets/images/avatar-jacob-thompson.webp);
+    }    
+    .profile4{
+        background-image: url(../assets/images/avatar-rizky-hasanuddin.webp);
+    }        
+    .profile5{
+        background-image: url(../assets/images/avatar-kimberly-smith.webp);
+    }
+    .profile6{
+        background-image: url(../assets/images/avatar-nathan-peterson.webp);
+    }
+    .profile7{
+        background-image: url(../assets/images/avatar-anna-kim.webp);
+    }
+
+    .post{
+        background-image: url(../assets/images/image-chess.webp);
+    }
+}
+
+@media(max-width: 800px){
+    .box{
+        width: 100%;
+    }
+}

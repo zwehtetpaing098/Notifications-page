@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+html {
+  font-size: 62.5%;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(210deg, 60%, 98%);
+  font-size: 1.6rem;
+}
+
+.noti {
+  background-color: hsl(210deg, 60%, 98%);
+}
+
+.img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  flex-grow: 1;
+  flex-basis: 85%;
+}
+
+.info-post {
+  flex-grow: 1;
+  flex-basis: 70%;
+}
+
+.about {
+  color: hsl(219deg, 12%, 42%);
+}
+.about .name {
+  color: hsl(224deg, 21%, 14%);
+  font-weight: 800;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.about .name:hover {
+  color: hsl(219deg, 85%, 26%);
+}
+.about .highlight {
+  font-weight: 500;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.about .highlight:hover {
+  color: hsl(219deg, 85%, 26%);
+}
+.about .club {
+  color: hsl(219deg, 85%, 26%);
+  font-weight: 500;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+.about .redDot {
+  display: inline-block;
+  background-color: hsl(1deg, 90%, 64%);
+  width: 7px;
+  height: 7px;
+  border-radius: 100px;
+}
+
+.time {
+  color: hsl(219deg, 14%, 63%);
+}
+
+.message {
+  transition: all 0.5s;
+}
+
+.message:hover {
+  background-color: hsl(205deg, 33%, 90%);
+}
+
+.post {
+  transition: all 0.5s;
+}
+
+.post:hover {
+  border: 2px solid hsl(205deg, 33%, 90%);
+}
+
+.box {
+  width: 800px;
+  background-color: hsl(0deg, 0%, 100%);
+  box-shadow: 1px 1px 15px 2px rgba(133, 133, 133, 0.1);
+}
+.box header nav .logo {
+  font-weight: 800;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.box header nav .logo h1 {
+  font-weight: 800;
+}
+.box header nav .logo div {
+  background-color: hsl(219deg, 85%, 26%);
+  color: hsl(0deg, 0%, 100%);
+  width: 30px;
+}
+.box header nav .read {
+  color: hsl(224deg, 21%, 14%);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.box header nav .read:hover {
+  color: hsl(219deg, 85%, 26%);
+}
+.box .profile1 {
+  background-image: url(../assets/images/avatar-mark-webber.webp);
+}
+.box .profile2 {
+  background-image: url(../assets/images/avatar-angela-gray.webp);
+}
+.box .profile3 {
+  background-image: url(../assets/images/avatar-jacob-thompson.webp);
+}
+.box .profile4 {
+  background-image: url(../assets/images/avatar-rizky-hasanuddin.webp);
+}
+.box .profile5 {
+  background-image: url(../assets/images/avatar-kimberly-smith.webp);
+}
+.box .profile6 {
+  background-image: url(../assets/images/avatar-nathan-peterson.webp);
+}
+.box .profile7 {
+  background-image: url(../assets/images/avatar-anna-kim.webp);
+}
+.box .post {
+  background-image: url(../assets/images/image-chess.webp);
+}
+
+@media (max-width: 800px) {
+  .box {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
