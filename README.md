@@ -1,6 +1,6 @@
 # Notifications page
 ## Check out my work
-* Live site : [Notifications page](link of the project)
+* Live site : [Notifications page](https://zwehtetpaing098.github.io/Notifications-page/)
 ## Screenshot of my work
 ![](images of the project)
 ## Contact me
